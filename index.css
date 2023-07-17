@@ -1,0 +1,38 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+
+}
+.container{
+    width: 400px;
+}
+#inputField{
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(118, 221, 49);
+    font-size: 1.4rem;
+    outline: none;
+    background-color: transparent;
+    color: lightcyan;
+    padding-left: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.dummy{
+    font-size: 1.5rem;
+    color: black;
+    background-color: lightblue;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.dummy:hover{
+    transform: scale(1.025);
+}
